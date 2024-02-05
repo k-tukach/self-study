@@ -5,7 +5,7 @@
 * **GitHub:** *[k-tukach](https://github.com/k-tukach)* 
 * **Discord:** *mc.ker#9789* 
 ## About me: 
-*I was born in Svetlogorsk, Belarus in 2004, and i am now 19 y.o. For 16 years i lived in Gomel, where i studying at the GSTU majoring in robotics. Was selected by the university for individual practice as a design engineer. In parallel with his studies, he worked as a packer in a company "Freshpack solutions". I am sociable, i like self-development and computer games. My main goal is to get a job at an IT company.*
+*I was born in Svetlogorsk, Belarus in 2004, and i am now 19 y.o. For 16 years i lived in Gomel, where i studying at the GSTU majoring in robotics. Was selected by the university for individual practice as a design engineer. In parallel with my studies, i worked as a packer in a company "Freshpack solutions". I am sociable, i like self-development and computer games. My main goal is to get a job at an IT company.*
 ## My skills:
 * *Python* 
 * *C++*
