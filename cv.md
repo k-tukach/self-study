@@ -13,7 +13,12 @@
 * *Assembler* 
 ## Code example:
 ```
-print ('Hello, IT! ')
+function factorial(n) 
+{
+  if(n < 0) return null;
+  if (n <= 1) return 1;
+  return n * factorial(n-1);
+}
 ```
 ## Experience:
 *This is my first project CV.* 
