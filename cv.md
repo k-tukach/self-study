@@ -13,7 +13,7 @@
 * *Assembler* 
 ## Code example:
 ```
-print ('Hello, IT!')
+print ('Hello, IT! ')
 ```
 ## Experience:
 *This is my first project CV.* 
