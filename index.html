@@ -1,25 +1,53 @@
-<!DOCTYPE html />
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="icons/icon.jpg" />
+        <link rel="icon" href="src/assets/icons/tk.jpg">
         <title>CV Tukach Kirill</title>
+        <link rel="stylesheet" href="style.scss">
     </head>
 
     <body>
+        <header class="header">
+            <a href="#" class="logo">logo</a>
+            <div class="container header-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#my-contacts" class="nav-link">My contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#my-skills" class="nav-link">My skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#experience" class="nav-link">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#languages" class="nav-link">languages</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <main class="main">
             <div class="container main-container">
 
                 <section class="section-left section-profile">
                     <article class="section-profile_avatar">
-                        <img src="src/assets/images/photo.jpg" alt="avatar" width="200" class="profile-avatar" />
+                        <img src="src/assets/photos/photo.jpg" alt="avatar" width="200" class="profile-avatar">
                     </article>
                     <article class="section-profile_title">
                         <h1 class="profile-name">Tukach Kirill</h1>
-                        <h5 class="profile-location">Belarus, Gomel</h3>
-                        <h3 class="profile-speciality">robotics engineer</h4>
+                        <h5 class="profile-location">Belarus, Gomel</h5>
+                        <h3 class="profile-speciality">robotics engineer</h3>
                     </article>
                 </section>
 
@@ -27,24 +55,24 @@
                     <h2 class="section-title">My contacts</h2>
                     <ul class="section-list">
                         <li class="list_items">
-                            <div class="icons contacts-Phone"></div>
-                            <span class="Phone"><a class="Phone-link" href="tel:+375293297153">+375293297153</a></span>
+                            <div class="icons contacts-phone"></div>
+                            <span class="phone"><a class="phone-link" href="tel:+375293297153">+375293297153</a></span>
                         </li>
                         <li class="list_items">
                             <div class="icons contacts-e-mail"></div>
                             <span class="e-mail"><a class="e-mail-link" href="mailto:kirill.tukach@gmail.com" target="_blank">kirill.tukach@gmail.com</a></span>
                         </li>
                         <li class="list_items">
-                            <div class="icons contacts-GitHub"></div>
-                            <span class="GitHub"><a class="GitHub-link" href="https://github.com/k-tukach" target="_blank">k-tukach</a></span>
+                            <div class="icons contacts-github"></div>
+                            <span class="github"><a class="github-link" href="https://github.com/k-tukach" target="_blank">k-tukach</a></span>
                         </li>
                         <li class="list_items">
-                            <div class="icons contacts-Discord"></div>
-                            <span class="Discord"><a class="Discord-link" href="https://discord.com/users/425671657005252608" target="_blank">k_tukach</a></span>
+                            <div class="icons contacts-discord"></div>
+                            <span class="discord"><a class="discord-link" href="https://discord.com/users/425671657005252608" target="_blank">k_tukach</a></span>
                         </li>
                     </ul>
                 </section>
-
+                
                 <section class="section-right section-about" id="about-me">
                     <h2 class="section-title">About me</h2>
                     <p>
@@ -69,16 +97,16 @@
                             <span class="title_phython">Phython</span>
                         </li>
                         <li class="list_items skills">
-                            <div class="icons skills-c++"></div>
-                            <span class="title_c++">C++</span>
+                            <div class="icons skills-cplusplus"></div>
+                            <span class="title_cplusplus">C++</span>
                         </li>
                         <li class="list_items skills">
-                            <div class="icons skills-C#"></div>
-                            <span class="title_C#">C#</span>
+                            <div class="icons skills-csharp"></div>
+                            <span class="title_csharp">C#</span>
                         </li>
                         <li class="list_items skills">
-                            <div class="icons skills-Assembler"></div>
-                            <span class="title_Assembler">Assembler</span>
+                            <div class="icons skills-assembler"></div>
+                            <span class="title_assembler">Assembler</span>
                         </li>
                     </ul>
                 </section>
@@ -88,20 +116,19 @@
                     <ul class="section-list">
                         <li class="section-item education">
                             Belarusian university
-                        </li>
-                        <ul class="section-list">
-                            <li class="section-item GSTU">
-                                <div class="icons education"></div>
-                                <span class="title gstu">Gomel State Technical University</span>
-                            </li>
-                                
                             <ul class="section-list">
-                                <li class="section-item speciality">
-                                    Design engineer specializing in "Industrial robots and robotic systems"
+                                <li class="section-item GSTU">
+                                    <div class="icons education"></div>
+                                    <span class="title gstu">Gomel State Technical University</span>
+                                    
+                                    <ul class="section-list">
+                                        <li class="section-item speciality">
+                                            Design engineer specializing in "Industrial robots and robotic systems"
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
-                                
-                        </ul>
+                        </li>
                     </ul>
                 </section>
 
@@ -110,8 +137,8 @@
                         <div>This is my first project CV.</div>
                 </section>
 
-                <section class="section-left section-languauges" id="languauges">
-                    <h2 class="section-title">Languauges</h2>
+                <section class="section-left section-languages" id="languages">
+                    <h2 class="section-title">Languages</h2>
                     <div>English: B1</div>
                     <div>Belarusian: Native</div>
                     <div>Russian: Native</div>
@@ -121,15 +148,15 @@
         </main>
         <footer class="container footer">
             <div class="footer-container">
-              <span>2024</span>
-              <div class="icons contacts_github_footer">
-                <a href="https://github.com/k-tukach" target="_blank" class="footer-link"></a>
-              </div>
-              <div class="icons contacts_rsschool_footer">
-                <a href="https://rs.school/js/" target="_blank" class="footer-link"></a>
-              </div>
+                <span>2024</span>
+                <div class="icons contacts_github_footer">
+                    <a href="https://github.com/k-tukach" target="_blank" class="footer-link"></a>
+                </div>
+                <div class="icons contacts_rsschool_footer">
+                    <a href="https://rs.school/js/" target="_blank" class="footer-link"></a>
+                </div>
             </div>
-          </footer>
+        </footer>
     </body>
 
 </html>
