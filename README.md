@@ -1,1 +1,1 @@
-https://k-tukach.github.io/rsschool-cv/
+https://k-tukach.github.io/self-study/
