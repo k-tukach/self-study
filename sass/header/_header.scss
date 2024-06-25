@@ -1,0 +1,32 @@
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-header;
+    padding: 10px;
+    box-shadow: 10px red;
+} 
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    padding: 0 430px 0 0;
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+    display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
