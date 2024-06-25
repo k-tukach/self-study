@@ -1,0 +1,21 @@
+.footer {
+    background-color: $color-footer;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    font-weight: 600;
+    display: flex;
+    padding: 0;
+    gap: 15px;
+}
+
+.contacts_github_footer {
+    background-image: url(../../src/assets/icons/github.svg);
+}
+
+.contacts_rsschool_footer {
+    background-image: url(../../src/assets/icons/rsschool.png);
+}
