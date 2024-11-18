@@ -1,0 +1,157 @@
+.main {
+    padding: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    >*{
+        flex-basis: 48%;
+    }
+    gap: 20px;
+    div {
+        color: $color-text;
+    }
+    p {
+        color: $color-text;
+    }
+    ul {
+        color: $color-text;
+    }
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    margin: 150px 0 0 0;
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .profile-avatar {
+        border-radius: 25px;
+        width: 200px;
+        height: 200px;
+    }
+    cursor: default;
+    height: 250px;
+    background-color: $color-background;
+    padding-bottom: 70px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+}
+
+.section-contacts {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+
+    .contacts-phone {
+        background-image: url(../../src/assets/icons/phone.png);
+    }
+
+    .contacts-e-mail {
+        background-image: url(../../src/assets/icons/e-mail.png);
+    }
+
+    .contacts-github {
+        background-image: url(../../src/assets/icons/github.svg);
+    }
+
+    .contacts-discord {
+        background-image: url(../../src/assets/icons/discord.png);
+    }
+}
+
+.section-skills{
+    background-color: $color-background;
+    border: solid 1px;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+
+    .skills-phython {
+        background-image: url(../../src/assets/icons/phyton.svg);
+    }
+
+    .skills-cplusplus {
+        background-image: url(../../src/assets/icons/cplusplus.png);
+    }
+
+    .skills-csharp {
+        background-image: url(../../src/assets/icons/csharp.svg);
+    }
+
+    .skills-assembler {
+        background-image: url(../../src/assets/icons/assembler.jpg);
+    }
+}
+
+.section-about {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+
+.section-education {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+    .GSTU {
+        padding: 0;
+    }
+}
+
+.section-experience {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+    div {
+        margin: 40px;
+    }
+}
+
+.section-code {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+    div {
+        margin: 40px;
+    }
+}
+
+.section-languages {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+    div {
+        margin: 0 40px;
+    }
+}
