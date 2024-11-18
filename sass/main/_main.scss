@@ -30,7 +30,7 @@
 .section-right {
     display: flex;
     flex-direction: column;
-    gap: 75px;
+    gap: 50px;
 }
 
 .section-profile {
@@ -121,6 +121,18 @@
 }
 
 .section-experience {
+    background-color: $color-background;
+    border: solid 1px;
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 150px;
+    div {
+        margin: 40px;
+    }
+}
+
+.section-code {
     background-color: $color-background;
     border: solid 1px;
     height: 150px;
